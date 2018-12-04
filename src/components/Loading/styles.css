@@ -1,0 +1,41 @@
+.line {
+    width: 2px;
+    height: 8px;
+    background: white;
+    border-radius: 1px;
+    margin-left: 3px;
+    margin-right: 3px;
+    box-shadow: 0px 1px 1px #222222;
+    opacity: 0.6;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+}
+
+.line {
+    transition: all 0.25s ease-out;
+}
+
+.grow0 {
+    height: 12px;
+    opacity: 1;
+}
+
+.grow1 {
+    height: 16px;
+    opacity: 1;
+}
+
+.grow2 {
+    height: 18px;
+    opacity: 1;
+}
+
+.grow3 {
+    height: 22px;
+    opacity: 1;
+}
